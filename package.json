@@ -1,0 +1,19 @@
+{
+  "name": "web3-auction-dapp",
+  "version": "1.0.0",
+  "description": "This dApp is an auction demo application that utilizes web3 technology.",
+  "main": "index.js",
+  "repository": "git@github.com:junya-thinkactive-d/web3-auction-dapp.git",
+  "author": "junya-thinkactive-d <develop.junya@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "client": "yarn workspaces client",
+    "contract": "yarn workspaces contract"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
